@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ccd4ba0-f011-4354-8153-2f78066f6e04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreedyAlgo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreedyAlgo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,22 +110,31 @@
       <option name="project" value="LOCAL" />
       <updated>1582182596775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1582702582078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582702582078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin Basic Input/Output" />
     <MESSAGE value="Algorithm Array commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm Array commit" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582702539560">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582702539560" />
-    <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582182592783">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="609" y="114" key="CommitChangelistDialog2" timestamp="1582702580582">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="609" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582702580582" />
     <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582182592783" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1582527232167">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -150,9 +160,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582702559726" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582182596947">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582702586179">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582702586179" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582182596947" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582524648706">
       <screen x="1920" y="0" width="1920" height="1040" />
