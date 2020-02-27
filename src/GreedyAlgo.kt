@@ -10,44 +10,22 @@ class GreedyAlgo {
     fun solution(price : Int): IntArray {
         coin = 1000-price
 
-        while (!(coin==0)){
-            coin = coin%500
-            coin = coin%100
-            coin = coin%50
+        for(i in 0..5) {
+            var temp = coin / coinArr[i]
+            count[i] += temp
+            coin = coin - (coinArr[i]*temp)
         }
 
-        /*while (coin>=500){
-            coin = coin%500
-            count[0]++
-        }
-        while (coin>=100){
-            coin = coin%100
-            count[1]++
-        }
-        while (coin>=50){
-            coin = coin%50
-            count[2]++
-        }
-        while (coin>=10){
-            coin = coin%10
-            count[3]++
-        }
-        while (coin>=5){
-            coin = coin%5
-            count[4]++
-        }
-        while (coin>=1){
-            coin = coin%1
-            count[5]++
-        }*/
         return count
     }
 }
 
 fun main() {
     var greedy = GreedyAlgo()
-    var solution : IntArray = greedy.solution(600)
-    for (i in solution){
-        println(i)
+    var solution = 0
+    var count : IntArray = greedy.solution(600)
+    for (i in count){
+        solution += count[i]
     }
+    println(solution)
 }
